@@ -1,0 +1,13 @@
+{
+  "name": "pixar-cat",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.0"
+  }
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pixar Cat Transformer</title>
+        <link rel="stylesheet" type="text/html" href="/style.css">
+    </head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pixar Cat Transformer</h1>
+        </header>
+        
+        <main>
+            <div class="upload-section">
+                <h2>Upload your cat photo</h2>
+                <form id="uploadForm">
+                    <input type="file" id="imageInput" accept="image/*" required>
+                    <button type="submit" id="transformButton">Transform to Pixar Style</button>
+                </form>
+            </div>
+
+            <div class="preview-section">
+                <div id="originalPreview" class="preview-container">
+                    <h3>Original Image</h3>
+                    <div class="image-preview"></div>
+                </div>
+                <div id="transformedPreview" class="preview-container">
+                    <h3>Transformed Image</h3>
+                    <div class="image-preview"></div>
+                </div>
+            </div>
+
+            <div id="status" class="status"></div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
